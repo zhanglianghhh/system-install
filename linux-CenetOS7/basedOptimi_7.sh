@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 基础优化脚本
+
 # no.0 mirrors and epel change  开始可能没有wget命令
 yum install -y wget
 /bin/mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.ori

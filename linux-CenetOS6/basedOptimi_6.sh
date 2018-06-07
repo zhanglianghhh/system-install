@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 基础优化脚本
+
 # no.0 mirrors and epel change
 /bin/mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.ori
 /usr/bin/wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-6.repo
