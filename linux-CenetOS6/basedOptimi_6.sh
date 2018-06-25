@@ -128,7 +128,7 @@ EOF
 /bin/cat >> /etc/ssh/sshd_config << EOF
 
 ##### by zhangliang # $(date +%F)##	
-Port 52113
+# Port 52113
 PermitRootLogin no
 PermitEmptyPasswords no
 UseDNS no
