@@ -77,8 +77,8 @@ source /etc/bashrc
 
 # no.9 limits.conf
 /bin/cp /etc/security/limits.conf /etc/security/limits.conf.ori
-/bin/echo "* soft nofile 65535" >> /etc/security/limits.conf
-/bin/echo "* hard nofile 65535" >> /etc/security/limits.conf
+/bin/echo "* soft nofile 131070" >> /etc/security/limits.conf
+/bin/echo "* hard nofile 131070" >> /etc/security/limits.conf
 
 # no.10 kernel optimize
 /bin/cp /etc/sysctl.conf /etc/sysctl.conf.ori
