@@ -36,7 +36,7 @@ userAdd=zhang
 # no.6 time synchronization
 yum install -y ntp
 /bin/echo "# time sync by zhangliang at $(date +%F)" >> /var/spool/cron/root
-/bin/echo '*/10 * * * * /usr/sbin/ntpdate time.nist.gov >/dev/null 2>&1' >> /var/spool/cron/root	
+/bin/echo '*/10 * * * * /usr/sbin/ntpdate ntp1.aliyun.com >/dev/null 2>&1' >> /var/spool/cron/root	
 
 # no.7 command line save set
 # /bin/cp /etc/profile /etc/profile.ori
